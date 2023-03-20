@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #001c22;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.h1t{
+  margin-left: 30px;
+  margin-top: 50px;
+  color: #08F9B1;
+  display: flex;
+}
+.imge{
+  width: 320px;
+}
+nav {
+    background-color: #004c5fcc;
+    position:sticky;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 29px;
+  }
+  
+  .logo {
+    color: #08F9B1;
+    font-size: 28px;
+    width: 80px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  button{
+    margin-left: 0px;
+    padding: 5px 45px;
+    background-color: #014655;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    font-weight: 500;
+    color: blanchedalmond;
+  }
+  button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  .navbar-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    margin-left: 295px;
+  }
+
+  .navbar-items li {
+    margin: 0 10px;
+  }
+  
+  .navbar-items li a {
+    color: blanchedalmond;
+    font-size: 25px;
+    text-decoration: none;
+    
+  }
+  .navbar-items li a:hover{
+    color: cadetblue;
+}
+  
+  .burger {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: #08F9B1;
+    margin: 5px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #08F9B1;
+    padding-top: 20px ;
+}
+footer li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    background-color:#08F9B1;
+}
+footer li a{
+    background-color: #08F9B1;
+    color: #004c5fcc;
+}
+footer li a:hover{
+    color: cadetblue;
+}
+  
+  @media screen and (max-width: 768px) {
+    .navbar-container {
+      padding: 0 20px;
+    }
+    
+    .navbar-items {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: #08F9B1;
+      padding: 20px;
+    }
+    
+    .navbar-items li {
+      margin: 10px 0;
+    }
+    
+    .burger {
+      display: block;
+    }
+    button{
+      margin-left: 0px;
+      padding: 11px 15px;
+      background-color: #014655;
+      border:none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      font-size: 18px;
+      font-weight: 500;
+      color: blanchedalmond;
+      margin-left: 125px;
+    }
+    .h1t{
+      margin-left: 30px;
+      margin-top: 50px;
+      color: #08F9B1;
+      display: flex;
+    }
+    .imge{
+      width: 200px;
+      margin-bottom: 10px;
+    }
+  }
