@@ -38,13 +38,13 @@ nav {
   }
   button{
     margin-left: 0px;
-    padding: 5px 45px;
+    padding: 15px 45px;
     background-color: #014655;
     border:none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     color: blanchedalmond;
   }
